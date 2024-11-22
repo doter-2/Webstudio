@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>studio</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container menu__box">
+        <a class="main-logo" href="#"
+          ><span class="logo-blue"> Web</span>Studio</a
+        >
+        <nav class="menu">
+          <div class="menu__wrapper">
+            <a class="menu__link" href="#">Студия</a>
+            <a href="pages/portfolio.html" class="menu__link">Портфолио</a>
+            <a href="menu__call">Контакты</a>
+          </div>
+
+          <div class="menu__wrapper">
+            <a class="menu__call" href="maito:intellect@gmail.com"
+              ><img src="img/massage.svg" alt="" /> info@devsstudio.com</a
+            >
+            <a class="menu__call" href="tel:+99656998789"
+              ><img src="img/tel.svg" alt="" /> 05252252</a
+            >
+          </div>
+        </nav>
+
+        <button class="menu__btn">
+          <img src="img/menu_btn.svg" alt="btn" />
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+          <button onclick="toggleModal()" class="main-btn">
+            Заказать услугу
+          </button>
+        </div>
+      </section>
+      <section class="advan">
+        <div class="container">
+          <ul class="advan__list">
+            <li class="advan__item">
+              <div class="advan__box"><img src="img/antenna.svg" alt="" /></div>
+              <h2 class="advan__title">Внимание к деталям</h2>
+              <p class="advan__text">
+                Идейные соображение,а так же начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="advan__item">
+              <div class="advan__box">
+                <img src="img/clock.svg" alt="" />
+              </div>
+              <h2 class="advan__title">Пунтктуальность</h2>
+              <p class="advan__text">
+                Задача организации,в особенности же рамки и место обучения
+                кадров влечет за собой
+              </p>
+            </li>
+            <li class="advan__item">
+              <div class="advan__box"><img src="img/diogram.svg" alt="" /></div>
+              <h2 class="advan__title">Планирование</h2>
+              <p class="advan__text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает
+              </p>
+            </li>
+            <li class="advan__item">
+              <div class="advan__box">
+                <img src="img/astronaut.svg" alt="" />
+              </div>
+              <h2 class="advan__title">Современные Технологии</h2>
+              <p class="advan__text">
+                Значимость этих проблем настолько очивидна, что
+                реализацияплановых заданий
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="work">
+        <div class="container">
+          <h2 class="main-title">Чем мы занимаемся</h2>
+          <ul class="work__list">
+            <li class="work__item">
+              <img src="img/work_1.webp" alt="" class="work__img" />
+            </li>
+            <li class="work__item">
+              <img src="img/work_2.webp" alt="" class="work__img" />
+            </li>
+            <li class="work__item">
+              <img src="img/work_3.webp    " alt="" class="work__img" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <h2 class="main-title">Наша команда</h2>
+          <ul class="team__list">
+            <li class="team__item">
+              <img src="img/team_1.webp" alt="" class="team__img" />
+              <h3 class="team__subtitle">Игорь Демьяненко</h3>
+              <p class="team__text">Product Designer</p>
+              <div class="team__wrapper">
+                <a href="#" class="team__link"
+                  ><img src="img/instagram.svg" alt="inctagram"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/twitter 1.svg" alt="twitter"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/facebook.svg" alt="facebook"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/linkedin 1.svg" alt="linkedin"
+                /></a>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="img/team_2.webp" alt="" class="team__img" />
+              <h3 class="team__subtitle">Ольга Репиана</h3>
+              <p class="team__text">Fronted Developer</p>
+              <div class="team__wrapper">
+                <a href="#" class="team__link"
+                  ><img src="img/instagram.svg" alt="inctagram"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/twitter 1.svg" alt="twitter"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/facebook.svg" alt="facebook"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/linkedin 1.svg" alt="linkedin"
+                /></a>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="img/team_3.webp" alt="" class="team__img" />
+              <h3 class="team__subtitle">Николай Тарасов</h3>
+              <p class="team__text">Marketing</p>
+              <div class="team__wrapper">
+                <a href="#" class="team__link"
+                  ><img src="img/instagram.svg" alt="inctagram"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/twitter 1.svg" alt="twitter"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/facebook.svg" alt="facebook"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/linkedin 1.svg" alt="linkedin"
+                /></a>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="img/team_4.webp" alt="" class="team__img" />
+              <h3 class="team__subtitle">Михаил Ермаков</h3>
+              <p class="team__text">UI Designer</p>
+              <div class="team__wrapper">
+                <a href="#" class="team__link"
+                  ><img src="img/instagram.svg" alt="inctagram"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/twitter 1.svg" alt="twitter"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/facebook.svg" alt="facebook"
+                /></a>
+                <a href="#" class="team__link"
+                  ><img src="img/linkedin 1.svg" alt="linkedin"
+                /></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="clients">
+        <div class="container">
+          <h2 class="main-title">Постоянные клиенты</h2>
+
+          <div class="clients__wrapper">
+            <a href="#" class="clients__link"
+              ><img src="img/clients-1.svg" alt="logo"
+            /></a>
+            <a href="#" class="clients__link"
+              ><img src="img/clients-2.svg" alt="logo"
+            /></a>
+            <a href="#" class="clients__link"
+              ><img src="img/clients-3.svg" alt="logo"
+            /></a>
+            <a href="#" class="clients__link"
+              ><img src="img/clients-4.svg" alt="logo"
+            /></a>
+            <a href="#" class="clients__link"
+              ><img src="img/clients-5.svg" alt="logo"
+            /></a>
+            <a href="#" class="clients__link"
+              ><img src="img/clients-6.svg" alt="logo"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__box">
+        <div class="footer__wrapper">
+          <a class="main-logo logo-white"
+            ><span class="logo-blue"> Web</span>Studio</a
+          >
+          <address class="footer__address">
+            г. Киев, пр-т Леси Украинки, 26
+          </address>
+          <a class="menu__call footer__call" href="maito:intellect@gmail.com"
+            >info@devsstudio.com</a
+          >
+          <br />
+          <a class="menu__call" href="tel:+996569256"> 05252252</a>
+        </div>
+
+        <div class="footer__wrapper">
+          <h3 class="footer__title">Присоединяйтесь</h3>
+          <div class="team__wrapper">
+            <a href="#" class="team__link"
+              ><img src="img/instagram.svg" alt="inctagram"
+            /></a>
+            <a href="#" class="team__link"
+              ><img src="img/twitter 1.svg" alt="twitter"
+            /></a>
+            <a href="#" class="team__link"
+              ><img src="img/facebook.svg" alt="facebook"
+            /></a>
+            <a href="#" class="team__link"
+              ><img src="img/linkedin 1.svg" alt="linkedin"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="hidden" id="overlay">
+      <div class="modal">
+        <button onclick="toggleModal()" id="modal__btn">X</button>
+        <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
+
+        
+        <form class="modal__form">
+          <label class="modal__label">
+            Имя
+            <img src="img/person.svg" alt="">
+            <input type="text" class="modal__input" required/>
+          </label>
+          <label class="modal__label">
+            Телефон
+            <img src="img/phone-black-18dp 1.svg" alt="">
+            <input type="number" class="modal__input" required/>
+          </label>
+          <label class="modal__label">
+            Почта
+            <img src="img/email-black-18dp 1.svg" alt="">
+            <input type="email" class="modal__input" required/>
+          </label>
+          <label class="modal__label">
+            Комментарий
+            <textarea class="modal__input"></textarea>
+          </label class="modal__label-send">
+          <input required name="check" type="checkbox">
+            <span>Соглашаюсь с рассылкой и принимаю </span>
+            <a href="#">Условие договора</a>
+        </label>
+
+        <button class="main-btn">Oтправить</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/modal.js"></script>
+  </body>
+</html>
